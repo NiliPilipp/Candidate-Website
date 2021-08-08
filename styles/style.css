@@ -2,7 +2,23 @@ body {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+.hero {
+  display: block;
+  text-align: center;
+}
+.nav-link {
+  border: 1px blue solid;
+  border-radius: 4px;
+}
+.contact-info {
+  display: block;
+  text-align: center;
+}
 
+.contact-icon {
+  font-size: 30px;
+  margin: 0 20px;
+}
 .fa-facebook {
-    color:rgb(76,110,245);
-    )
+  color: rgb(76, 110, 245);
+}
