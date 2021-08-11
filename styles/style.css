@@ -1,3 +1,9 @@
+:root {
+  --primary-color: rgb(49, 98, 141);
+  --secondary-color: rgb(145, 25, 21);
+  --third-color: rgb(158, 202, 226);
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 body {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -5,20 +11,66 @@ body {
 .hero {
   display: block;
   text-align: center;
+  background-image: linear-gradient(var(--third-color), white);
+  color: var(--primary-color);
+}
+.button-wrapper {
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--primary-color);
+  background-color: white;
 }
 .nav-link {
-  border: 1px blue solid;
+  border: 1px var(--primary-color) solid;
   border-radius: 4px;
+  color: var(--primary-color);
+}
+.alt-nav-link {
+  background-color: whitesmoke;
+}
+h2 {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 100px;
+  color: var(--secondary-color);
+}
+.action-link {
+  color: white;
+  background-color: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  width: 100%;
+  text-align: center;
+  float: right;
+}
+.action-link:hover {
+  color: vare;
+}
+@media (max-width: 770px) {
+  .action-link {
+    font-size: 12px;
+    padding: 5px;
+  }
+  .homepage-content {
+    font-size: 12px !important;
+    text-align: center;
+  }
 }
 .contact-info {
   display: block;
   text-align: center;
 }
-
 .contact-icon {
   font-size: 30px;
   margin: 0 20px;
 }
 .fa-facebook {
   color: rgb(76, 110, 245);
+}
+.source-links {
+  font-family: monospace;
+  font-size: 12px;
+  margin-top: 40px;
 }
