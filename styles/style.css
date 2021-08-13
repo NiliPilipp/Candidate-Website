@@ -107,3 +107,15 @@ h2 {
 .blog-content {
   padding: 0px;
 }
+
+.team-image {
+  height: 50%;
+  width: 50%;
+  margin: 20px;
+  align-items: center;
+}
+.team-text {
+  display: block;
+  text-align: center;
+  margin: 5px 20px;
+}
