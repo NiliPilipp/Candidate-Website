@@ -41,14 +41,29 @@ h2 {
   padding: 10px;
   text-decoration: none;
   border-radius: 4px;
-  width: 100%;
   text-align: center;
+}
+.action-link.home {
+  width: 100%;
   float: right;
+}
+.action-link.blog {
+  width: 20%;
 }
 .action-link:hover {
   color: var(--third-color);
 }
-@media (max-width: 1000px) {
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 20px !important;
+  }
+  h3 {
+    font-size: 20px !important;
+  }
   .nav-link {
     border: 0;
     text-align: left;
@@ -56,13 +71,20 @@ h2 {
   .alt-nav-link {
     background-color: transparent;
   }
-  .action-link {
+  .action-link-home {
     font-size: 12px;
     padding: 5px;
   }
   .homepage-content {
     font-size: 12px !important;
     text-align: center;
+  }
+  .blog-content {
+    width: 100%;
+  }
+  .action-link {
+    padding: 5px;
+    font-size: 12px;
   }
 }
 .contact-info {
@@ -81,4 +103,7 @@ h2 {
   font-family: monospace;
   font-size: 12px;
   margin-top: 40px;
+}
+.blog-content {
+  padding: 0px;
 }
