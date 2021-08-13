@@ -46,9 +46,16 @@ h2 {
   float: right;
 }
 .action-link:hover {
-  color: vare;
+  color: var(--third-color);
 }
-@media (max-width: 770px) {
+@media (max-width: 1000px) {
+  .nav-link {
+    border: 0;
+    text-align: left;
+  }
+  .alt-nav-link {
+    background-color: transparent;
+  }
   .action-link {
     font-size: 12px;
     padding: 5px;
@@ -61,6 +68,7 @@ h2 {
 .contact-info {
   display: block;
   text-align: center;
+  margin-top: 10px;
 }
 .contact-icon {
   font-size: 30px;
