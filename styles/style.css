@@ -14,7 +14,7 @@ body {
   background-image: linear-gradient(var(--third-color), white);
   color: var(--primary-color);
 }
-.button-wrapper {
+.navbar-wrapper {
   padding-bottom: 5px;
   border-bottom: 1px solid var(--primary-color);
   background-color: white;
@@ -67,7 +67,7 @@ h2 {
     margin-top: 40px;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 990px) {
   h1 {
     font-size: 30px !important;
   }
