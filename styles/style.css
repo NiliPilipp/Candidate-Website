@@ -28,7 +28,6 @@ body {
   background-color: whitesmoke;
 }
 h2 {
-  display: block;
   text-align: center;
   padding-top: 10px;
   margin-top: 100px;
@@ -53,7 +52,16 @@ h2 {
 .action-link:hover {
   color: var(--third-color);
 }
+@media (min-width: 900px) {
+  .blog-content {
+    margin-top: 40px;
+    font-size: 18px;
+  }
 
+  .blog-image {
+    margin-top: 40px;
+  }
+}
 @media (max-width: 760px) {
   h1 {
     font-size: 30px !important;
@@ -63,6 +71,9 @@ h2 {
   }
   h3 {
     font-size: 20px !important;
+  }
+  h4 {
+    font-size: 16px;
   }
   .nav-link {
     border: 0;
@@ -107,13 +118,15 @@ h2 {
 .blog-content {
   padding: 0px;
 }
-
-.team-image {
-  height: 50%;
-  width: 50%;
+.team-cell {
   margin: 20px;
-  align-items: center;
 }
+h4 {
+  text-align: center;
+  margin: 0 20px;
+  color: var(--primary-color);
+}
+
 .team-text {
   display: block;
   text-align: center;
