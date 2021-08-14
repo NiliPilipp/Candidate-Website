@@ -34,6 +34,7 @@ h2 {
   color: var(--secondary-color);
 }
 .action-link {
+  display: block;
   color: white;
   background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -49,6 +50,11 @@ h2 {
 .action-link.blog {
   width: 20%;
 }
+.action-link.event {
+  width: 50%;
+  margin: 0;
+  float: left;
+}
 .action-link:hover {
   color: var(--third-color);
 }
@@ -57,7 +63,6 @@ h2 {
     margin-top: 40px;
     font-size: 18px;
   }
-
   .blog-image {
     margin-top: 40px;
   }
@@ -126,9 +131,13 @@ h4 {
   margin: 0 20px;
   color: var(--primary-color);
 }
-
 .team-text {
   display: block;
   text-align: center;
   margin: 5px 20px;
+}
+.event {
+  margin: 5px;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
 }
