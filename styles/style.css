@@ -78,7 +78,7 @@ h4 {
 .blog-content.bottom {
   padding: 12px;
 }
-.contact-info {
+.contact {
   display: block;
   text-align: center;
   margin-top: 10px;
@@ -167,7 +167,12 @@ h4 {
     margin: 0px, 20px;
     text-align: center;
   }
+  .team-text {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 }
+
 @media (max-width: 300px) {
   h1 {
     font-size: 20px !important;
