@@ -23,10 +23,16 @@ body {
   border: 1px var(--primary-color) solid;
   border-radius: 4px;
   color: var(--primary-color);
+  font-size: larger;
+}
+.nav-link:hover,
+.nav-link.active {
+  color: var(--secondary-color) !important;
 }
 .alt-nav-link {
   background-color: whitesmoke;
 }
+
 h2 {
   text-align: center;
   padding-top: 10px;
