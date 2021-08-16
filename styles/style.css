@@ -104,6 +104,7 @@ h4 {
   display: block;
   text-align: center;
   margin: 5px 20px;
+  line-height: 1;
 }
 .event {
   margin: 5px;
@@ -122,13 +123,14 @@ h4 {
 }
 @media (max-width: 990px) {
   h1 {
-    font-size: 30px !important;
+    font-size: 24px !important;
   }
   h2 {
-    font-size: 20px !important;
+    font-size: 18px !important;
+    margin-top: 60px;
   }
   h3 {
-    font-size: 20px !important;
+    font-size: 16px !important;
   }
   h4 {
     font-size: 16px;
@@ -167,10 +169,13 @@ h4 {
     margin: 0px, 20px;
     text-align: center;
   }
+
   .team-text {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 5px 5px;
   }
+}
+.team-content {
+  padding: 0px 60px;
 }
 
 @media (max-width: 300px) {
@@ -178,14 +183,13 @@ h4 {
     font-size: 20px !important;
   }
   h2 {
-    margin-top: 60px;
     font-size: 16px !important;
   }
   h3 {
     font-size: 12px !important;
   }
   h4 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .nav-link {
     font-size: 12px;
