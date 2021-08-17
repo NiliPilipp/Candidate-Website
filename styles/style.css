@@ -98,7 +98,7 @@ h4 {
 }
 .source-links {
   font-family: monospace;
-  font-size: 12px;
+  font-size: 16px;
   margin-top: 40px;
   display: block;
   text-align: center;
@@ -168,7 +168,9 @@ h4 {
     font-size: 10px;
     margin: 0px, 0px;
   }
-
+  .source-links {
+    font-size: smaller;
+  }
   .homepage-content {
     font-size: 12px !important;
     text-align: center;
