@@ -64,7 +64,7 @@ h4 {
 }
 .action-link-row {
   justify-content: flex-end;
-  margin: 60px;
+  margin: 30px;
 }
 .action-link.blog {
   width: 20%;
@@ -100,6 +100,8 @@ h4 {
   font-family: monospace;
   font-size: 12px;
   margin-top: 40px;
+  display: block;
+  text-align: center;
 }
 
 .team-cell {
@@ -114,6 +116,9 @@ h4 {
 }
 .team-content {
   padding: 0px 60px;
+}
+.team-image {
+  padding: 0px;
 }
 .event {
   margin: 5px;
@@ -155,14 +160,13 @@ h4 {
     background-color: transparent;
   }
   .action-link-row {
-    justify-content: center;
     margin: 20px;
+    justify-content: center;
   }
-  .action-link.home {
-    font-size: 12px;
+  .action-link {
     padding: 5px;
-    width: 40%;
-    margin: 10px, 0px !important;
+    font-size: 10px;
+    margin: 0px, 0px;
   }
 
   .homepage-content {
@@ -175,15 +179,13 @@ h4 {
     justify-content: center;
     margin: 0 !important;
   }
-  .action-link {
-    padding: 5px;
-    font-size: 10px;
-    margin: 0px, 20px;
-    text-align: center;
-  }
 
   .team-text {
     margin: 5px 5px;
+  }
+  .contact-icon {
+    font-size: 20px;
+    margin: 0 10px;
   }
   .contact-link {
     font-size: 12px;
@@ -208,5 +210,9 @@ h4 {
   }
   .action-link {
     font-size: 8px;
+  }
+
+  .team-content {
+    padding: 0px 0px;
   }
 }
