@@ -110,11 +110,11 @@ h4 {
   text-align: center;
   line-height: 2;
 }
-.email-link {
+.contact-link {
   text-decoration: none;
   color: black;
 }
-.email-link:hover {
+.contact-link:hover {
   color: var;
   color: var(--social-link-color);
 }
