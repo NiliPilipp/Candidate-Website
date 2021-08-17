@@ -3,6 +3,7 @@
   --secondary-color: rgb(145, 25, 21);
   --third-color: rgb(158, 202, 226);
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --social-link-color: rgb(76, 110, 245);
 }
 body {
   padding-top: 100px;
@@ -91,21 +92,42 @@ h4 {
 }
 .contact-icon {
   font-size: 30px;
-  margin: 0 20px;
+  margin: 0 15px;
+  color: var(--social-link-color);
+  padding: 5px;
+  border-radius: 20px;
 }
-.fa-facebook {
-  color: rgb(76, 110, 245);
+.contact-icon:hover {
+  color: white;
+  background: var(--social-link-color);
 }
+
 .source-links {
   font-family: monospace;
   font-size: 16px;
   margin-top: 40px;
   display: block;
   text-align: center;
+  line-height: 2;
 }
-
+.email-link {
+  text-decoration: none;
+  color: black;
+}
+.email-link:hover {
+  color: var;
+  color: var(--social-link-color);
+}
+.source-icon {
+  font-size: 25px;
+  padding: 5px;
+  border-radius: 20px;
+}
+.source-icon:hover {
+  background-color: whitesmoke;
+}
 .team-cell {
-  margin: 20px;
+  margin: 50px;
 }
 
 .team-text {
