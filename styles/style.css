@@ -70,10 +70,8 @@ h4 {
 .action-link.blog {
   width: 20%;
 }
-.action-link.event {
-  width: 50%;
-  margin: 0;
-  float: left;
+.action-link.events {
+  width: 80%;
 }
 .action-link:hover {
   color: var(--third-color);
@@ -108,7 +106,7 @@ h4 {
   margin-top: 40px;
   display: block;
   text-align: center;
-  line-height: 2;
+  line-height: 1;
 }
 .contact-link {
   text-decoration: none;
@@ -218,7 +216,7 @@ h4 {
 
 @media (max-width: 300px) {
   h1 {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
   h2 {
     font-size: 16px !important;
@@ -229,13 +227,22 @@ h4 {
   h4 {
     font-size: 14px;
   }
+  h5 {
+    font-size: 12px;
+  }
   .nav-link {
     font-size: 12px;
   }
   .action-link {
     font-size: 8px;
   }
-
+  .event {
+    margin: 5px;
+  }
+  .action-link.events {
+    padding: 0px;
+    width: 100%;
+  }
   .team-content {
     padding: 0px 0px;
   }
